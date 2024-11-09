@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class WordRecommender {
 
     public WordRecommender(String dictionaryFile) {    
