@@ -87,7 +87,7 @@ public class WordRecommenderTest {
     @Test
     public void testCalculateCommonPercent_Partial() {
         // Test partial character overlap between two words
-        assertEquals(0.6, recommender.calculateCommonPercent("abandon", "abandonment"), 0.001);
+        assertEquals(0.625, recommender.calculateCommonPercent("abandon", "abandonment"), 0.001);
     }
 
     @Test
