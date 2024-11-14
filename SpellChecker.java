@@ -67,7 +67,7 @@ public class SpellChecker {
 
             try {                                                                   // try/catch to see if Dictionary file is valid and can be opened
                 FileInputStream input = new FileInputStream(userFileName);
-                outputFileName = userFileName.substring(0, userFileName.length() - 4) + "_chf.txt";
+                outputFileName = userFileName.substring(0, userFileName.length() - 4) + "_chk.txt";
                 System.out.printf(Util.FILE_SUCCESS_NOTIFICATION, userFileName, outputFileName);
                 return input;
             } catch (IOException e) {                                               // Throws IO Exception if File is not valid and prompts user to try again
