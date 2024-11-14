@@ -112,5 +112,12 @@ public class WordRecommender {
 
         return bestMatch;
     }
+
+    // Dictionary getter
+    public ArrayList<String> getDictionary() {
+        return dictionary;
+    }
+
 }
+
 
